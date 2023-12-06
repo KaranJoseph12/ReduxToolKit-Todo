@@ -17,7 +17,7 @@ const AddTodo = () => {
     <div>
       <form onSubmit={handleSubmit} className="relative flex h-10 w-full min-w-[200px] ">
         <button
-          className="!absolute right-1 top-1 z-10 select-none rounded bg-orange-500  text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-orange-500/20 transition-all hover:shadow-lg hover:shadow-orange-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none peer-placeholder-shown:pointer-events-none peer-placeholder-shown:bg-blue-gray-500 peer-placeholder-shown:opacity-50 peer-placeholder-shown:shadow-none mr-2"
+          className="!absolute right-1 top-1 z-10 select-none rounded bg-orange-500  text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-orange-500/20 transition-all hover:shadow-lg hover:shadow-orange-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none peer-placeholder-shown:pointer-events-none peer-placeholder-shown:bg-blue-gray-500 peer-placeholder-shown:opacity-50 peer-placeholder-shown:shadow-none mr-2 px-2"
           type="submit"
           data-ripple-light="true"
         >
