@@ -1,8 +1,7 @@
-# React + Vite
+![Screenshot 2023-12-07 120156](https://github.com/KaranJoseph12/ReduxToolKit-Todo/assets/148121439/0a7b4471-a1fe-4b5a-b2af-8de6643076e4)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Update
+![Screenshot 2023-12-07 120209](https://github.com/KaranJoseph12/ReduxToolKit-Todo/assets/148121439/c596cfa8-4b8a-4f34-bf59-ca4fee47d148)
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Updated
+![Screenshot 2023-12-07 120245](https://github.com/KaranJoseph12/ReduxToolKit-Todo/assets/148121439/7cbba70b-6d18-403c-b622-0167942a6221)
