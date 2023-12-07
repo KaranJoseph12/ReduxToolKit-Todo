@@ -46,10 +46,10 @@ export default function UpdateTodo({open,setOpen,todo}) {
             leaveFrom="opacity-100"
             leaveTo="opacity-0"
           >
-            <div className=" inset-0 bg-black/25" />
+            <div className="fixed inset-0 bg-black/25" />
           </Transition.Child>
 
-          <div className=" inset-0 overflow-y-auto">
+          <div className="fixed inset-0 overflow-y-auto">
             <div className="flex min-h-full items-center justify-center p-4 text-center">
               <Transition.Child
                 as={Fragment}
@@ -75,7 +75,7 @@ export default function UpdateTodo({open,setOpen,todo}) {
                       />
                     <button
                       type="submit"
-                      className="!absolute right-6 top-16 py-1  z-10 select-none rounded bg-black  text-center align-middle font-sans text-xs font-bold uppercase shadow-md shadow-yellow-500/20 transition-all hover:shadow-lg hover:shadow-yellow-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none peer-placeholder-shown:pointer-events-none peer-placeholder-shown:bg-blue-gray-500 peer-placeholder-shown:opacity-50 peer-placeholder-shown:shadow-none mr-2 px-2 text-yellow-300"
+                      className="!absolute right-6 top-16 py-1  z-10 select-none rounded bg-yellow-300 text-center align-middle font-sans text-xs font-bold uppercase shadow-md shadow-yellow-500/20 transition-all hover:shadow-lg hover:shadow-yellow-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none peer-placeholder-shown:pointer-events-none peer-placeholder-shown:bg-blue-gray-500 peer-placeholder-shown:opacity-50 peer-placeholder-shown:shadow-none mr-2 px-2 text-black"
                       onClick={closeModal}
                     >
                       Submit
